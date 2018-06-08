@@ -86,7 +86,7 @@ def natLog():
     a = tkinter.simpledialog.askfloat("Coefficient Outside","Enter the coefficient of your function, such as aln(x), where a is the coefficient: " )    
     coe_Num = tkinter.simpledialog.askfloat("Coefficient Inside","Enter the coefficient of your function, such as ln(b*x), where b is the coefficient: " )
     insidePow = tkinter.simpledialog.askfloat("Power","Now enter the inside power such as ln(x^2): " )
-    outsidePow = tkinter.simpledialog.askflaot("Power Outside", "Now enter the outsdie power, such as (ln(x)))
+    outsidePow = tkinter.simpledialog.askflaot("Power Outside", "Now enter the outsdie power, such as (ln(x))**2")
 
     real_deriv = diff(ln(coe_Num*(x**insidePow)),x) * a
     
